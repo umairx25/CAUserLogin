@@ -14,7 +14,7 @@ import static org.junit.Assert.*;
 public class SignupInteractorTest {
 
     @Test
-    public void successTest() {
+    public void successUserLoggedInTest() {
         SignupInputData inputData = new SignupInputData("Paul", "password", "password");
         SignupUserDataAccessInterface userRepository = new InMemoryUserDataAccessObject();
 
